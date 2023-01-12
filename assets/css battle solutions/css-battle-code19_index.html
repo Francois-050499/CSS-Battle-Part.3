@@ -32,14 +32,14 @@
             border-radius: 50%;
             color: #F6E59C;
             box-shadow: 60px 0,
-                120px 0,
-                180px 0,
-                0 60px,
-                60px 60px,
-                120px 60px,
-                0 120px,
-                60px 120px,
-                0 180px;
+                        120px 0,
+                        180px 0,
+                        0 60px,
+                        60px 60px,
+                        120px 60px,
+                        0 120px,
+                        60px 120px,
+                        0 180px;
         }
     </style>
 
@@ -143,6 +143,40 @@
     <!-------------------------------->
 
     <!--#112. Chevron-->
+    
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <style>
+    body {
+        background-color: #6592CF;
+        position: relative;
+    }
+    
+    div:nth-of-type(1),
+    div:nth-of-type(2),
+    div:nth-of-type(3) {
+        left: 75px;
+        position: fixed;
+        width: 250px;
+        height: 100px;
+        background-color: #293D7E;
+        clip-path: polygon(0 0, 15.5% 0, 50% 69.5%, 84.5% 0, 100% 0, 50% 100%);
+    }
+    
+    div:nth-of-type(1) {
+        top: 150px; 
+    }
+    
+    div:nth-of-type(2) {
+        top: 100px; 
+    }
+    
+    div:nth-of-type(3) {
+        top: 50px; 
+    }
+    </style>
 
     <!-------------------------------->
 
