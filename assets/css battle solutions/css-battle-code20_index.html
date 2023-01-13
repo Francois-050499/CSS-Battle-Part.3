@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Battle Solutions</title>
+</head>
+
+<body>
+
+    <!-- Please refer to ... -->
+
+    <!--#117. Arineo-->
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <style>
+    
+    * {
+        position: relative;
+    }
+    
+    div {
+        position: absolute;
+    }
+    
+    div:nth-of-type(1),
+    div:nth-of-type(2) {
+        width: 44px;
+        height: 180px;
+        background-color: #2E2926;
+    }
+    
+    div:nth-of-type(1) {
+        top: 52px;
+        left: 126px;
+        transform: skew(-25deg);
+        z-index: -1;
+    }
+    
+    div:nth-of-type(2) {
+        top: 52px;
+        left: 214px;
+        transform: skewX(25deg);
+        z-index: -1;
+    }
+    
+    div:nth-of-type(3) {
+        top: 101.5px;
+        left: 112px;
+        width: 80px;
+        height: 230px;
+        background-color: #0088CA;
+        clip-path: polygon(0 12%, 0 0, 100% 35%, 100% 47%);
+        z-index: 1;
+    }
+    
+    div:nth-of-type(4) {
+        top: 62px;
+        left: 192px;
+        width: 120px;
+        height: 148px;
+        background-color: #0088CA;
+        clip-path: polygon(100% 19%, 100% 0, 0 81%, 0 100%);
+        z-index: 1;
+    }
+    
+    div:nth-of-type(5) {
+        top: 123.5px;
+        left: 127.5px;
+        width: 34px;
+        height: 49px;
+        transform: skewY(33deg) rotate(19.5deg);
+        background-color: #FFFFFF;
+        z-index: -1;
+    }
+    
+    div:nth-of-type(6) {
+        top: 123.5px;
+        left: 222px;
+        width: 34px;
+        height: 49px;
+        transform: skewY(-33deg) rotate(-19.5deg);
+        background-color: #FFFFFF;
+        z-index: -1;
+    }
+    
+    div:nth-of-type(7) {
+        top: 131px;
+        left: 181px;
+        width: 22px;
+        height: 22px;
+        background-color: #0088CA;
+        border-radius: 50%;
+    }
+    </style>
+    <!-------------------------------->
+
+    <!--#118. Donkey Kong-->
+
+    <!-------------------------------->
+
+    <!--#119. Pacman-->
+
+    <!-------------------------------->
+
+    <!--#120. Tank-->
+
+    <!-------------------------------->
+
+    <!--#121. Duck Hunt-->
+
+    <!-------------------------------->
+
+    <!--#122. Tetris-->
+
+    <!-------------------------------->
+
+    <!--#123. Snake-->
+
+    <!-------------------------------->
+
+    <!--#124. Space Invaders-->
+
+    <!-------------------------------->
+</body>
+
+</html>
