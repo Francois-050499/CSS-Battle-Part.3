@@ -105,6 +105,102 @@ body {
     transform: scale(1.05);
     color: #ff4500;
 }
+
+/*************************************** カード *****************************************/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.wrap .card {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 22px 22.5px 40px rgba( 0, 0, 0, .3);
+    border-radius: 15px;
+    background:rgba(255, 255, 255, .1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1.5px solid rgba(255, 255, 255, .5);
+    border-left: 1.5px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(10px);
+}
+
+.wrap .card .content {
+    padding: 20px;
+    text-align: center;
+}
+
+.wrap .card .content h2 {
+    position: absolute;
+    top: -40px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba( 0, 0, 0, .1);
+    pointer-events: none;
+}
+
+.wrap .card .content h3 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #404040;
+    z-index: 1;
+}
+
+.wrap .card .content p {
+    
+    font-size: 1em;
+    color: #404040;
+    font-weight: 300;
+}
+
+.wrap .card .content a {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #fff;
+    color: #404040;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 4px 8px 15px rgba(0, 0, 0, .3);
+}
+
+/**************************************** フッター *****************************************/
+
+.footer {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.footer-line {
+    margin-top: 100px;
+    border-color: #000;
+}
+  
+.footer-copy {
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+/************************************ トップボタンに戻る ***********************************/
   
 .back-to-top {
     background-color: #ff4500;
